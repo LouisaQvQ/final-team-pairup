@@ -1,0 +1,75 @@
+.Login1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: center;
+  padding: 1rem;
+}
+
+.Login1 h1 {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  color: rgb(32, 195, 223);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+}
+
+.Login1 .image {
+  max-width:50%;
+  height: auto;
+  margin: 0.5rem auto 0;
+  display: block;
+  margin-top: 25px;
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  30% {
+    transform: scale(1.2);
+  }
+  90% {
+    transform: scale(1);
+  }
+}
+
+.Login1 .main-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10rem;
+}
+
+.Login1 .button {
+  display: block;
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border: 1px solid rgb(80, 53, 179);
+  cursor: pointer;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.Login1 .button.login {
+  background: rgb(32, 195, 223);
+  color: #fff;
+}
+
+.Login1 .button.signup {
+  background: rgb(32, 195, 223);
+  color: #fff;
+  
+}
+
+.Login1 .button:hover {
+  background-color: #4608b9; /* Green */
+  color: white;
+}
