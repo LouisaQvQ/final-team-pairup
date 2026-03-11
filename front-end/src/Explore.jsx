@@ -4,7 +4,7 @@ import './Explore.css';
 const Explore = (props) => (
   <div className="ExplorePage">
     <header className="site-header">
-
+    Explore
     </header>
     <main className="main-content">
       <input className="search-bar" placeholder="search : SDE/PM/ML" />

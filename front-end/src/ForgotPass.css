@@ -12,12 +12,13 @@
   font-size: 2.5rem;
   margin-bottom: 0.5rem;
   color: rgb(32, 195, 223);
+  text-shadow: 1px 2px 1px rgb(192, 195, 196);
 }
 
 .ForgotPass .subtitle {
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin-bottom: 2rem;
-  color: #666;
+  color: rgb(83, 100, 100);
 }
 
 .ForgotPass .main-content {
@@ -38,10 +39,11 @@
 .ForgotPass .forgot-form input[type="email"] {
   padding: 1rem;
   font-size: 1rem;
-  border: 1px solid #444;
+  border: 1px solid #f4f2f2;
   background: #eee;
   width: 100%;
   box-sizing: border-box;
+  box-shadow: 2px 3px 2px rgb(32, 195, 223);
 }
 
 .ForgotPass .submit-button {
@@ -58,7 +60,7 @@
   background: #4608b9;}
 
 .ForgotPass .back-link {
-  margin-top: 2rem;
+  margin-top: -20rem;
   font-size: 1rem;
 }
 

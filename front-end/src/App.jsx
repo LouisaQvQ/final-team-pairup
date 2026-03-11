@@ -16,7 +16,9 @@ import Explore from './Explore'
 import Chat from './Chat'
 import Settings from './Settings'
 import ScheduleHub from './ScheduleHub'
-
+import Profile from './Profile'
+import AccountSecurity from './AccountSecurity';
+import MatchPreferences from './MatchPreferences';
 // set up routes so different URL routes load up different main components
 const App = props => {
   const [user, setUser] = useState({}) // a state variable that stores the logged-in user, if any
@@ -93,6 +95,12 @@ const AppContent = ({ user, setUser }) => {
         <Route path="/chat" element={<Chat user={user} navigate={navigate} />} />
         {/* Settings page */}
         <Route path="/settings" element={<Settings user={user} navigate={navigate} />} />
+        {/* Profile page */}
+        <Route path="/profile" element={<Profile user={user} navigate={navigate} />} />
+        {/* Account Security page */}
+        <Route path="/account-security" element={<AccountSecurity user={user} navigate={navigate} />} />
+        {/* Match Preferences page */}
+        <Route path="/match-preferences" element={<MatchPreferences user={user} navigate={navigate} />} />
         {/* ScheduleHub page */}
         <Route path="/schedule" element={<ScheduleHub />} />
       </Routes>

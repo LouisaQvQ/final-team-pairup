@@ -7,6 +7,10 @@ const Home = props => {
       <header className="site-header">
         <div className="title">Swipe and Match</div>
       </header>
+      <header className="site-header2">
+        <div className="title2">Today's Match </div>
+      </header>
+
       <main className="main-content">
         <section className="match-card">
           <div className="profile-photo-container">

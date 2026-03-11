@@ -5,15 +5,18 @@
 }
 .site-header {
   display: flex;
+  justify-content: center;
+  align-items: center;
   padding: 1rem;
   background: #fff;
   border-bottom: 1px solid #ccc;
-  align-items: center;
-  position: relative;
   color: rgb(32, 195, 223);
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
 }
 .title {
-  font-size: 2rem;
+  font-size: 5rem;
   text-align: center;
   flex: 1;
 }
@@ -50,7 +53,8 @@
   padding: 1rem;
   font-size: 1rem;
   margin-bottom: 1rem;
-  box-shadow: 0 2px 4px #ccc;
+  border: 1px;
+  margin-top: -60px;
 }
 .explore-list {
   width: 100%;
@@ -58,9 +62,10 @@
 }
 .explore-card {
   display: flex;
-  border: 2px solid #000;
+  border: 2px solid #ffffff;
   margin-bottom: 1rem;
   background: #fff;
+  box-shadow: 2px 3px 2px rgb(32, 195, 223);
 }
 .explore-image {
   background: #a8d0f0;

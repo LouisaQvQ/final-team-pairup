@@ -12,11 +12,14 @@
   font-size: 2.2rem;
   margin-bottom: 0.8rem;
   color: rgb(32, 195, 223);
+  text-shadow: 1px 2px 1px rgb(192, 195, 196);
+  
 }
 
 .Login2 .subtitle {
   font-size: 0.9rem;
   margin-bottom: 2rem;
+  color: rgb(83, 100, 100);
 }
 
 .Login2 .main-content {
@@ -38,10 +41,11 @@
 .Login2 .login-form input[type="password"] {
   padding: 1rem;
   font-size: 1rem;
-  border: 1px solid #444;
+  border: 1px solid #f9f9f9;
   background: #eee;
   width: 100%;
   box-sizing: border-box;
+  box-shadow: 2px 3px 2px rgb(32, 195, 223);
 }
 
 .Login2 .forgot-container {
@@ -72,11 +76,13 @@
   margin-top: 0rem;
   font-size: 1rem;
   text-align: center;
+  color: rgb(83, 100, 100);
 }
 
 .Login2 .signup-link {
   text-decoration: underline;
   font-weight: bold;
+  color: rgb(32, 195, 223);
 }
 
 .Login2 .error {

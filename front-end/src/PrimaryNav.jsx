@@ -22,10 +22,12 @@ const PrimaryNav = props => {
         <Link to="/about">Notification</Link>
       </nav>
       <footer className="site-footer">
+        <div className="footer-text">
         <Link to="/home" className="footer-btn">Swipe & Match</Link>
         <Link to="/explore" className="footer-btn">Explore</Link>
         <Link to="/chat" className="footer-btn">Chat</Link>
         <Link to="/settings" className="footer-btn">Settings</Link>
+        </div>
       </footer>
     </>
   )

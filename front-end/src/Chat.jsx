@@ -3,7 +3,9 @@ import './Chat.css';
 
 const Chat = (props) => (
   <div className="ChatPage">
-
+    <header className="site-header">
+    Chat
+    </header>
     <main className="main-content">
       <input className="search-bar" placeholder="search : name" />
       <section className="chat-list">
